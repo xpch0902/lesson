@@ -3,6 +3,7 @@ QUnit.test("It should handle key press", function( assert ) {
 	$('#2').click();
 	$('#3').click();
 	num = calculatorUI.getDisplay() ;
+	// 我不会啊，张戈彤是傻逼
     assert.ok( num == 123 , "Passed!" );
 });
 QUnit.test("It should mutiply two numbers", function( assert ) {
